@@ -1,14 +1,14 @@
 {% extends 'base.html.twig' %}
 
-
+{% block title %} Contact By Email {% endblock %}
 {% block main %}
 <div>
+<br>
 {{ form_start(our_form) }}
 {{ form_widget(our_form) }}
-<input type="submit" value="Send" />
+<input type="submit" value="Send" class="btn btn-success"/>
 {{ form_end(our_form) }}
 </div>
-
 
 {% endblock main %}
 
