@@ -1,1 +1,14 @@
-Hello Page !
+{% extends 'base.html.twig' %}
+
+{% block title %} 
+My Hello Page
+{% endblock title %}
+
+
+
+{% block main %}
+<div> 
+My cool variable: {{ my_variable }}
+</div>
+
+{% endblock main %}
